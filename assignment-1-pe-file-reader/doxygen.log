@@ -1,0 +1,12 @@
+/mnt/c/Users/Женя/desktop/itmo1/y2/embedded-systems-labwork/assignment-1-pe-file-reader/solution/include/pe_reader.h:36: warning: argument 'peFile' of command @param is not found in the argument list of read_headers(FILE *in, struct PEFile *PEFile)
+/mnt/c/Users/Женя/desktop/itmo1/y2/embedded-systems-labwork/assignment-1-pe-file-reader/solution/include/pe_reader.h:36: warning: The following parameter of read_headers(FILE *in, struct PEFile *PEFile) is not documented:
+  parameter 'PEFile'
+/mnt/c/Users/Женя/desktop/itmo1/y2/embedded-systems-labwork/assignment-1-pe-file-reader/solution/include/pe_reader.h:42: warning: argument 'PEFile' of command @param is not found in the argument list of write_section(FILE *in, FILE *out, struct PEFile *peFile, char *section_name)
+/mnt/c/Users/Женя/desktop/itmo1/y2/embedded-systems-labwork/assignment-1-pe-file-reader/solution/include/pe_reader.h:42: warning: The following parameter of write_section(FILE *in, FILE *out, struct PEFile *peFile, char *section_name) is not documented:
+  parameter 'peFile'
+/mnt/c/Users/Женя/desktop/itmo1/y2/embedded-systems-labwork/assignment-1-pe-file-reader/solution/src/pe_reader.c:78: warning: argument 'peFile' of command @param is not found in the argument list of read_headers(FILE *in, struct PEFile *PEFile)
+/mnt/c/Users/Женя/desktop/itmo1/y2/embedded-systems-labwork/assignment-1-pe-file-reader/solution/src/pe_reader.c:78: warning: The following parameter of read_headers(FILE *in, struct PEFile *PEFile) is not documented:
+  parameter 'PEFile'
+/mnt/c/Users/Женя/desktop/itmo1/y2/embedded-systems-labwork/assignment-1-pe-file-reader/solution/src/pe_reader.c:138: warning: argument 'PEFile' of command @param is not found in the argument list of write_section(FILE *in, FILE *out, struct PEFile *peFile, char *section_name)
+/mnt/c/Users/Женя/desktop/itmo1/y2/embedded-systems-labwork/assignment-1-pe-file-reader/solution/src/pe_reader.c:138: warning: The following parameter of write_section(FILE *in, FILE *out, struct PEFile *peFile, char *section_name) is not documented:
+  parameter 'peFile'
